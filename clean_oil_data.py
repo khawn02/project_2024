@@ -4,7 +4,7 @@ import numpy as np
 
 def clean_oil_data(input_file_path, output_file_path):
     """
-    Cleans the 'Estimated_Spill_Area' column in the Oil_2022.csv file
+    Cleans the 'Estimated_Spill_Area' column in the all sheets of excel file
     Parameters:
     - input_file_path: str, path to the input CSV file.
     - output_file_path: str, path to save the cleaned CSV file
