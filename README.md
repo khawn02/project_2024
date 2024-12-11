@@ -13,3 +13,8 @@ The following command then uses panda to read the input excel file assuming it d
 #2 Solution is the function was created using the script clean_NOSDRA_data.py
 the function name in the dictionary was clean_oil_data_excel. This was used to clean up the column Estimated_Spill_Area and normalize the column so everything was in square meters. 
 The function iterated accross the three sheets of oil spill data using the excell sheet created using the function above.It worked by reading the sheet for the desired column, changes orientation to numeric values, cleaned it of any missing data or charachters such as NA, NIL, etc. The data once cleaned assumed any rows not in square kilometers would remain and the rest would be converted to square meters before getting saved to a new excel file. 
+
+Outline: 
+1. Define the Function
+![image](https://github.com/user-attachments/assets/2fea1a3c-8d99-4195-a737-c598a8870c03)
+
